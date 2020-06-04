@@ -82,3 +82,12 @@ merge_sort([4,2,1,8,7,9,5,3,7,3,5])
 
 # merge_sort([4,2,1,8,7,9,5,3,7,3,5])
 
+# def merge(ls1, ls2):
+#     result = []
+#     while len(ls1) and len(ls2): 
+#         if ls1[0] > ls2[0]:
+#             result.append(ls2.pop(0))
+#         else: 
+#             result.append(ls1.pop(0))
+#     result = result + ls1 + ls2
+#     return result 
